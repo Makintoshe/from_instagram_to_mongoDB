@@ -18,5 +18,7 @@ N.B : vous pouvez adapter le code à votre gout.
 - proof : contient quelques screenshots des enregistrements
 - browser : contient les fichiers des extensions chromedriver pour 3 OS (Linux, Mac et Windows) (voir le code)
 
+Environnement : de préférence, executer votre code sur un IDE (pycharm, ...) ou sur VS_code, etc.
+
 Enjoy !
 
