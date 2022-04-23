@@ -1,6 +1,8 @@
 # from_instagram_to_mongoDB
 Mise en place d'un petit bot qui récupère 3 éléments d'un post instagram afin de les enregistrer, il s'agit entre autre de  
-* tous les commentaires, le texte du post ainsi que le lien de la photo de profil ou du media du post selon votre convenance(voir code)
+* tous les commentaires, 
+* le texte du post ainsi que, 
+* le lien de la photo de profil ou du media du post selon votre convenance(voir code)
 
 N.B : vous pouvez adapter le code à votre gout.
 
