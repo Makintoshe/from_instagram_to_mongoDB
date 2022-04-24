@@ -12,7 +12,6 @@ def check_connexion(f,uri):
     '''
     cli = pm.MongoClient(f''+uri)
     try:
-        # The ping command is cheap and does not require auth.
         cli.admin.command('ping')
     except ConnectionFailure:
         return lever_exception(f)
