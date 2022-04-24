@@ -67,15 +67,17 @@ def get_datas(collection, post_id=None):
             p_id = ObjectId(""+str(post_id))
             document = collection.find_one({'_id': p_id})
             return document
-        else :
+        elif :
             # renvoi un vecteur de document
             for doc in post_id:
                 p_id = ObjectId(""+str(post_id))
                 docs.append(collection.find_one({'_id': p_id}))
                 return docs
+        else :
+            # renvoi l'ensemble des documents en dataframe
+            documents = collection.find_all() 
     else :
-        # renvoi l'ensemble des documents en dataframe
-        documents = collection.find_all()
+        documents = {} # car None
     return pd.DataFrame(documents)
     
     
